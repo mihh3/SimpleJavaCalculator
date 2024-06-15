@@ -1,0 +1,64 @@
+/* Add some padding and background color to the display */
+#display {
+    -fx-padding: 10px;
+    -fx-background-color: #f0f0f0;
+    -fx-font-size: 24px;
+    -fx-alignment: CENTER_RIGHT;
+}
+
+/* Style the buttons */
+.button {
+    -fx-font-size: 18px;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px; /* Make buttons slightly rounded */
+    -fx-border-color: transparent;
+    -fx-margin: 5px;
+}
+
+/* Style the equal button */
+#equalButton {
+    -fx-background-color: #008CBA; /* Blue */
+}
+
+/* Style the clear button */
+#clearButton {
+    -fx-background-color: #f44336; /* Red */
+}
+
+/* Style the backspace button */
+#backspaceButton {
+    -fx-background-color: #555555; /* Dark Gray */
+}
+
+/* Add some spacing between buttons */
+.grid-pane {
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+}
+
+/* Hover effect on buttons */
+.button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+/* Pressed effect on buttons */
+.button:pressed {
+    -fx-background-color: #1e6d32; /* Darkest Green */
+}
+/* application.css */
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #007bff; /* blue border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+.calculator-pane {
+    -fx-background-color: lightgray; /* Change this to the desired background color */
+}
